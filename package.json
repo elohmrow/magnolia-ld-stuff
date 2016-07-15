@@ -1,0 +1,16 @@
+{
+  "name": "lmONE",
+  "version": "1.0.0",
+  "description": "something, that's for sure!",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "magnolia-light-module"
+  ],
+  "author": "This Guy",
+  "license": "None"
+}

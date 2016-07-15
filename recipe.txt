@@ -1,0 +1,21 @@
+[1] create light module
+    mgnl create-light-module thingOne
+
+[2] create page
+    cd thingOne
+    ../npm-cli/bin/mgnl.js create-page pageOne
+
+    gives:
+        templates/pages/pageOne.ftl
+        templates/pages/pageOne.yaml
+        dialogs/pages/pageOne.yaml
+
+[3] add component to area to page
+    ../npm-cli/bin/mgnl.js create-component compOne --available pageOne@main
+
+    gives:
+        templates/components/compOne.yaml
+        templates/components/compOne.ftl
+        dialogs/components/compOne.yaml
+
+[4] profit!

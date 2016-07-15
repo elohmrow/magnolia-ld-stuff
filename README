@@ -1,0 +1,23 @@
+README
+======
+
+SG.txt
+    - this is a global find and replace script
+
+lm-start.sh
+    - an example bash script for creating a light module
+
+n-start.sh
+    - the same thing, but more complete, and using npm-cli
+
+npm_howto.txt
+    - after you create a light module using npm-cli, this shows you how to package and publish it
+
+package.json
+    - an example package.json file
+
+recipe.txt
+    - what you need for a basic light module
+
+table.html
+    - an example of a nice html table, just for quickly checking HTML components

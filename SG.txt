@@ -1,0 +1,4 @@
+# this is a perl script to find 'THING_TO_REPLACE' everywhere, in every file, recursively, from current root position in fs, and
+# replace it with REPLACEMENT_TEXT.  If you don't know what you're doing, make first a backup, or try it on a test directory tree!
+
+find . -type f -exec perl -i -pe 's/THING_TO_REPLACE/REPLACEMENT_TEXT/g' {} \;

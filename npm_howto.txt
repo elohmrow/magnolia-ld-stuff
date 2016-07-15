@@ -1,0 +1,10 @@
+########################################
+# how to build and publish your module #
+########################################
+
+# make sure you have myLightModule/package.json
+# then, `cd myLightModule`
+# then, `npm pack`
+# then, `npm publish`
+
+# for all the details: https://docs.npmjs.com/getting-started/publishing-npm-packages
